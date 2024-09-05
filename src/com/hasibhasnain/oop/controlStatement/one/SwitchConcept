@@ -1,0 +1,9 @@
+1. Switch is faster than if/else because of jump tree.
+2. Beginning with JDK 7, expression can also be of type String.
+        But we should not use it unnecessarily.
+3. Switching on string can be more expensive than switching on integers.
+4. Nested Switch is possible.
+7. If/else can evaluate any type of Boolean expression.
+        That is, the switch looks only for a match between the value
+        of the expression and one of its case constants.
+8. using break statement is optional.
