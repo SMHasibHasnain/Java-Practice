@@ -10,6 +10,7 @@ public class One {
         return sum;
     }
 
+    //variables arguments: accepts any numbers of arguments
     public static int addWithVarargs (int a, int b, int... c) {
         int sum = a + b;
         for (int i : c) {
