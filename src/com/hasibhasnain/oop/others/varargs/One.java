@@ -19,7 +19,7 @@ public class One {
         return sum;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         System.out.println(addWithArrays( 3, 5, new int[]{1, 2, 3}));
         System.out.println(addWithVarargs(10, 11, 1, 2, 3));
     }
